@@ -49,6 +49,13 @@ body {
     font-size: 1.125em;
 }
 
+@media (max-width: 739px) {
+    .menu-nav {
+        float: none;
+        clear: both;
+    }
+}
+
 /* intro*/
 .intro {
     background: url('./../img/bg-intro.jpg') no-repeat center center;
